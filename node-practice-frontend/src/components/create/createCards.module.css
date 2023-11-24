@@ -1,0 +1,52 @@
+.createCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.inputs {
+  width: 60%;
+  height: 40px;
+  font-size: 14px;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  margin: 30px 0px 20px;
+  color: rgb(78, 78, 78);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.inputs:focus {
+  outline: none;
+}
+
+.description {
+  width: 60%;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  color: rgb(78, 78, 78);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.description:focus {
+  outline: none;
+}
+
+.addButton {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #01a101;
+  box-shadow: 8px 10px 7px -5px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}

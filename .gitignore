@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node-practice-frontend/node_modules
+/node-practice-frontend/.pnp
+/node-practice-frontend.pnp.js
+
+# testing
+/node-practice-frontend/coverage
+
+# production
+/node-practice-frontend/build
+
+# misc
+node-practice-frontend/.DS_Store
+node-practice-frontend/.env.local
+node-practice-frontend/.env.development.local
+node-practice-frontend/.env.test.local
+node-practice-frontend/.env.production.local
+
+node-practice-frontend/npm-debug.log*
+node-practice-frontend/yarn-debug.log*
+node-practice-frontend/yarn-error.log*
+
+
+# backend 
+
+node-practice-backend/node_modules
